@@ -17,6 +17,9 @@
                 <div style="text-align:center">
                     <br/>
                     <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <h2>Rapport de logement</h2>
                     Date début:
                     <span t-esc="date_from"/>
@@ -29,10 +32,10 @@
                         <thead>
                             <tr>
                                 <th>
-                                    <strong>Subscription</strong>
+                                    <strong>Contrat</strong>
                                 </th>
                                 <th>
-                                    <strong>Partenaire</strong>
+                                    <strong>Client</strong>
                                 </th>
                                 <th>
                                     <strong>Total Depenses</strong>
