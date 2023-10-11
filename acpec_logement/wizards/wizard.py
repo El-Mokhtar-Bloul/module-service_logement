@@ -25,3 +25,5 @@ class AcpecLogementReportWizard(models.TransientModel):
             'company_id':self.company_id.id
         }
         return self.env.ref('acpec_logement.action_raport_abonnement').report_action(self, data=data)
+        #raise models.ValidationError("%s"%data)
+        
